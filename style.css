@@ -104,8 +104,160 @@ padding: 0;
 min-height: 100vh;
 }
 
+h1 {
+  color: var(--unnamed-color-a2cf44);
+}
+
+h6 {
+  color: var(--unnamed-color-a2cf44);
+}
 .navbar {
   background-color: var(--unnamed-color-001000
   );
 }
 
+.bila {
+  color: white;
+}
+
+.green44 {
+  color: var(--unnamed-color-a2cf44);
+}
+
+.black {
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--unnamed-color-a2cf44);
+  background-image: linear-gradient(90deg, var(--unnamed-color-2f6b26), black);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--unnamed-color-a2cf44)
+}
+
+footer p {
+  text-align: center;
+}
+
+.katalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, var(--unnamed-color-2f6b26), black);
+}
+.grafika {
+  background-color: none;
+
+}
+
+.katolog--icons {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kategorie--grafika {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icons--grafika {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: var(--unnamed-color-a2cf44);
+  text-transform: uppercase;
+  
+}
+
+.btn-outline-success {
+  background-color: var(--unnamed-color-a2cf44);
+}
+
+.icons--grafika:hover {
+color: aliceblue;
+}
+
+.grafika {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+#papir {
+  background-image: url("img/Katalog/papir.svg");
+} 
+
+#papir:hover {
+  background-image: url("img/Katalog/hpapir.svg");
+}
+
+#plenky{
+  background-image: url("img/Katalog/Plenky.svg");
+}
+
+#plenky:hover {
+  background-image: url("img/Katalog/hplenky.svg");
+}
+
+#lahve{
+  background-image: url("img/Katalog/Lahve.svg");
+}
+
+#lahve:hover {
+  background-image: url("img/Katalog/hlahve.svg");
+}
+
+#chemie{
+  background-image: url("img/Katalog/Chemie.svg");
+}
+
+#chemie:hover {
+  background-image: url("img/Katalog/hchemie.svg");
+}
+
+#podlaha{
+  background-image: url("img/Katalog/Podlaha.svg");
+}
+
+#podlaha:hover {
+  background-image: url("img/Katalog/hpodlaha.svg");
+}
+
+#zidle{
+  background-image: url("img/Katalog/Zidle.svg");
+}
+
+#zidle:hover {
+  background-image: url("img/Katalog/hzidle.svg");
+}
+
+#tricko{
+  background-image: url("img/Katalog/Tricko.svg");
+}
+
+#tricko:hover {
+  background-image: url("img/Katalog/htricko.svg");
+}
+
+#postel{
+  background-image: url("img/Katalog/Postel.svg");
+}
+
+#postel:hover {
+  background-image: url("img/Katalog/hpostel.svg");
+}

@@ -6,6 +6,12 @@ body {
 .navbar {
   background-color: #001000;
 }
+
+
+.navbar .nav > li > a:hover {
+  color: #fff;
+} 
+
 .navbar .dropdown,
 .navbar .dropend,
 .navbar .dropstart,
@@ -52,6 +58,8 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+
 @media screen and (min-width: 1550px) {
   .container,
   .container-lg,
@@ -146,6 +154,57 @@ footer ul li {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+.katalog #plenky .icon {
+  background-image: url("../img/i2.svg");
+  background-size: 60% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.katalog #lahve .icon {
+  background-image: url("../img/i3.svg");
+  background-size: 60% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+
+  .katalog #chemie .icon {
+    background-image: url("../img/i4.svg");
+    background-size: 60% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+
+    .katalog #podlaha .icon {
+      background-image: url("../img/i5.svg");
+      background-size: 60% auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      }
+
+.katalog #zidle .icon {
+  background-image: url("../img/i6.svg");
+  background-size: 60% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  }
+
+  .katalog #tricko .icon {
+    background-image: url("../img/i7.svg");
+    background-size: 60% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+
+    .katalog #postel .icon {
+      background-image: url("../img/i8.svg");
+      background-size: 60% auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      }
+
+
 .katalog .grafika {
   position: relative;
   overflow: hidden;
@@ -172,6 +231,7 @@ footer ul li {
   background-color: transparent;
   transition: all 0.2s;
 }
+
 .katalog .grafika:hover .icon {
   filter: invert(1) brightness(0);
 }
@@ -184,7 +244,9 @@ footer ul li {
   left: 0;
   top: 0;
   background-color: #a2cf44;
+  
 }
+
 .katalog .katalog--search input[type="search"] {
   height: 39px;
   background-color: #ffffff;
@@ -201,4 +263,9 @@ footer ul li {
   border: none;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+ 
+ul li a:hover  {
+  color: white;
 }

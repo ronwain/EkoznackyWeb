@@ -200,64 +200,54 @@ color: aliceblue;
   background-size: 60% auto;
   background-position:  center center;
   background-repeat: no-repeat;
-  
+}
+
+.icons--grafika:hover {
+  color: white;
+}
+
+.kvalita {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.ceskaKvalita {
+background-color: white;
+width: 100%vw;
+height: 80%vh;
 
 }
 
-
-
-#plenky{
-  background-image: url("img/Katalog/Plenky.svg");
+.ceskaKvalita--symbol {
+  display: flex;
+  flex-direction: row;
 }
 
-#plenky:hover {
-  background-image: url("img/Katalog/hplenky.svg");
+.ceskaKvalita--title {
+  color: var(--unnamed-color-001000);
 }
 
-#lahve{
-  background-image: url("img/Katalog/Lahve.svg");
+.home-container h1 {
+  font-family: Export;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 70px;
+}
+.ceskaKvalita--title h1 {
+  color: var(--unnamed-color-001000);
+    font-family: Export;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 70px;
 }
 
-#lahve:hover {
-  background-image: url("img/Katalog/hlahve.svg");
-}
-
-#chemie{
-  background-image: url("img/Katalog/Chemie.svg");
-}
-
-#chemie:hover {
-  background-image: url("img/Katalog/hchemie.svg");
-}
-
-#podlaha{
-  background-image: url("img/Katalog/Podlaha.svg");
-}
-
-#podlaha:hover {
-  background-image: url("img/Katalog/hpodlaha.svg");
-}
-
-#zidle{
-  background-image: url("img/Katalog/Zidle.svg");
-}
-
-#zidle:hover {
-  background-image: url("img/Katalog/hzidle.svg");
-}
-
-#tricko{
-  background-image: url("img/Katalog/Tricko.svg");
-}
-
-#tricko:hover {
-  background-image: url("img/Katalog/htricko.svg");
-}
-
-#postel{
-  background-image: url("img/Katalog/Postel.svg");
-}
-
-#postel:hover {
-  background-image: url("img/Katalog/hpostel.svg");
+.ceskaKvalita--content {
+  color: var(--unnamed-color-2f6b26);
+  margin-bottom: 70px;
+  margin-top: 30px;
 }

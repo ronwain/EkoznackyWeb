@@ -269,3 +269,32 @@ footer ul li {
 ul li a:hover  {
   color: white;
 }
+
+.content  {
+  background-color: white;
+}
+
+#content--wraper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.content p {
+  font-family: "museo-sans-condensed";
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: #2F6B26;
+}
+.content--sekce h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Export;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+}
+

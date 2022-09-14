@@ -134,7 +134,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: var(--unnamed-color-a2cf44);
-  background-image: linear-gradient(90deg, var(--unnamed-color-2f6b26), black);
+ /* background-image: linear-gradient(90deg, var(--unnamed-color-2f6b26), black);*/
 }
 
 footer a {
@@ -151,10 +151,10 @@ footer p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(90deg, var(--unnamed-color-2f6b26), black);
 }
 .grafika {
   background-color: none;
+  background-size: contain;
 
 }
 
@@ -196,15 +196,15 @@ color: aliceblue;
   border-radius: 50%;
   width: 220px;
   height: 220px;
+  border: 3px solid #a2cf44;
+  background-size: 60% auto;
+  background-position:  center center;
+  background-repeat: no-repeat;
+  
+
 }
 
-#papir {
-  background-image: url("img/Katalog/papir.svg");
-} 
 
-#papir:hover {
-  background-image: url("img/Katalog/hpapir.svg");
-}
 
 #plenky{
   background-image: url("img/Katalog/Plenky.svg");

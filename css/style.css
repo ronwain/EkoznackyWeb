@@ -1,0 +1,204 @@
+body {
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.navbar {
+  background-color: #001000;
+}
+.navbar .dropdown,
+.navbar .dropend,
+.navbar .dropstart,
+.navbar .dropup {
+  position: static;
+}
+.navbar .navbar-nav .dropdown-menu {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  border: none;
+  border-radius: 0;
+  background-color: #001000;
+}
+.navbar .navbar-nav .dropdown-menu ul {
+  list-style: none;
+  padding-left: 0;
+  justify-content: center;
+}
+.navbar .navbar-nav .dropdown-menu li {
+  display: inline-block;
+  margin: auto auto;
+  text-align: center;
+}
+.navbar .navbar-nav .dropdown-menu li a {
+  font-family: "museo-sans-condensed";
+  font-size: 20px;
+  text-transform: none;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .navbar-nav .open .dropdown-menu {
+  display: block;
+}
+.navbar .navbar-nav .logo {
+  margin-top: 6px;
+}
+.navbar .navbar-nav li a {
+  color: #a2cf44;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Export;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1550px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1460px;
+  }
+}
+img {
+  max-width: 100%;
+}
+.btn.btn-greenborder {
+  color: #a2cf44;
+  font-family: Export;
+  font-size: 35px;
+  font-weight: 400;
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid #a2cf44;
+  border-radius: 0px;
+  transition: all 0.3s;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 43px;
+  min-width: 405px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.btn.btn-greenborder:hover {
+  color: #000;
+  background-color: #a2cf44;
+}
+.home-container p {
+  font-family: "museo-sans-condensed";
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: #a2cf44;
+}
+footer {
+  margin-top: 60px;
+}
+footer p {
+  font-family: "museo-sans-condensed";
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+footer ul {
+  text-align: center;
+  font-family: "museo-sans-condensed";
+  font-size: 22px;
+  font-weight: 500;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer ul li {
+  display: inline-block;
+}
+.katalog {
+  padding-top: 70px;
+}
+.katalog h1 {
+  color: #a2cf44;
+  font-family: Export;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.katalog h5 {
+  color: #a2cf44;
+  font-family: Export;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+}
+.katalog #papir .icon {
+  background-image: url("../img/i1.svg");
+  background-size: 60% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.katalog .grafika {
+  position: relative;
+  overflow: hidden;
+}
+.katalog .grafika .icon {
+  display: block;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+.katalog .grafika:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+.katalog .grafika:hover .icon {
+  filter: invert(1) brightness(0);
+}
+.katalog .grafika:hover:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #a2cf44;
+}
+.katalog .katalog--search input[type="search"] {
+  height: 39px;
+  background-color: #ffffff;
+  border-radius: 0rem;
+}
+.katalog .katalog--search button[type="submit"] {
+  height: 39px;
+  background-color: #a2cf44;
+  color: #001000;
+  font-family: Export;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}

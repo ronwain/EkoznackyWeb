@@ -298,3 +298,59 @@ ul li a:hover  {
   text-align: left;
 }
 
+.accordion-item{
+  border-color:#a2cf44;
+  margin-bottom: 3%;
+}
+
+.accordion-header, .accordion-item {
+  font-family: "museo-sans-condensed";
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: #2F6B26;
+}
+.accordion-body {
+  cursor: pointer;
+  text-align: left;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.text__znacky {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text__znacky figcaption {
+  color: #a2cf44;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+#listek {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.content--sekce .content--esv {
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.esv--symbol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

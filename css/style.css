@@ -288,6 +288,7 @@ ul li a:hover  {
   font-weight: 500;
   text-align: left;
   color: #2F6B26;
+  line-height: 1.8;
 }
 .content--sekce h2 {
   display: flex;
@@ -353,4 +354,56 @@ ul li a:hover  {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+p {
+  line-height:1.5;
+}
+
+br {
+  margin-bottom: 30px;
+}
+
+.content--sekce .content--znacka {
+  align-content: center;
+  align-items: center;
+}
+
+.poplatky--content {
+  background-color: #fff;
+}
+
+.heading--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
+
+.navbar-nav .nav-fill.active .nav-link,
+.navbar-nav .nav-fill:hover .nav-link {
+  color: white;
+}
+
+.icons--grafika h5:hover {
+  color: #fff;
+}
+
+.heading--dat {
+  color: var(--unnamed-color-a2cf44);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0%;
+}
+
+.komunikace--paragraf {
+  padding: 4% 0 4% 0;
 }

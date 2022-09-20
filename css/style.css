@@ -104,7 +104,11 @@ img {
   font-weight: 500;
   text-align: left;
   color: #a2cf44;
+  margin-top: 20%;
+  padding-top: 20%;
 }
+
+
 footer {
   margin-top: 60px;
 }
@@ -468,3 +472,37 @@ h5 {
   font-family: Export;
   margin: 0%;
 }
+
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+  
+th { 
+	
+	color: #001000; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border-bottom:  1px solid #001000; 
+	text-align: left; 
+	font-size: 16px;
+	}
+
+  td:nth-of-type(1) { 
+    color: #001000; 
+    font-weight: bold; 
+    font-family:var(--bs-font-sans-serif);
+    }
+
+    td {
+      color: #a2cf44;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: Export;
+      height: 24px;
+    }

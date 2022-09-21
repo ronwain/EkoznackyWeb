@@ -484,6 +484,7 @@ th {
 	
 	color: #001000; 
 	font-weight: bold; 
+ 
 	}
 
 td, th { 
@@ -505,6 +506,7 @@ td, th {
       font-weight: 400;
       font-family: Export;
       height: 24px;
+      white-space: nowrap;
     }
 
     .komunikace--paragraf p {

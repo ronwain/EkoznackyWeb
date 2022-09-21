@@ -506,3 +506,29 @@ td, th {
       font-family: Export;
       height: 24px;
     }
+
+    .komunikace--paragraf p {
+      margin: 0%;
+      padding: 0%;
+    }
+
+    h1  {
+      color: #a2cf44;
+      font-weight: 400;
+      font-family: Export;
+    }
+
+    h2{
+      color: #a2cf44;
+      font-weight: 400;
+      font-family: Export;
+    
+    }
+
+    .green26 {
+      color: #2F6B26;
+    }
+
+    #cenik  { 
+    padding: 0 0 3% 0;
+    }

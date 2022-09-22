@@ -284,6 +284,7 @@ ul li a:hover  {
   align-content: center;
 }
 
+/*
 .content p {
   font-family: "museo-sans-condensed";
   color: #ffffff;
@@ -294,7 +295,7 @@ ul li a:hover  {
   color: #2F6B26;
   line-height: 1.3;
 }
-
+*/
 br { 
   line-height: 150%;
 }

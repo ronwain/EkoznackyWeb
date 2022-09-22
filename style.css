@@ -264,11 +264,10 @@ opacity: 1;
 }
 
 .poplatky--podcarou, .poplatky--cenik {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-a2cf44);
 text-align: left;
-font: normal normal normal 18px/22px Museo Sans Cond;
+font-family: var(--unnamed-font-family-export);
 letter-spacing: 0px;
 color: #A2CF44;
 opacity: 1;
@@ -293,4 +292,90 @@ font: normal normal normal 50px/57px Export;
 letter-spacing: 0px;
 color: #001000;
 opacity: 1;
+}
+.content--predstavuje {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2f6b26);
+text-align: left;
+font: normal normal normal 22px/27px Museo Sans Cond;
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+}
+
+/* komponenta vyrobek*/
+.vyrobek--komponenta {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  background-color: white;
+  height: auto;
+  margin: 2%;
+  padding: 2%;
+}
+
+.vyrobek--form {
+ text-align: right; 
+}
+
+.vyrobek--import {
+  text-align: left;
+}
+
+.vyrobek--title {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-001000);
+text-align: left;
+font-family: "museo-sans-condensed";
+letter-spacing: 0px;
+color: #001000;
+opacity: 1;
+font-weight: bold;
+}
+ 
+#bold1 {
+  font-weight: bold;
+}
+
+.vyrobek--form {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2f6b26);
+text-align: right;
+font-family: "museo-sans-condensed";
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+}
+
+.vyrobek--import {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2f6b26);
+text-align: left;
+font-family: "museo-sans-condensed";
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+font-weight: bold;
+}
+
+#odpad1 {
+  background-color: aliceblue;
+  width:100vw;
+  height: 100vh;
+}
+
+.tlacitko__detail {
+  height: 39px;
+  background-color: #a2cf44;
+  color: #001000;
+  font-family: Export;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }

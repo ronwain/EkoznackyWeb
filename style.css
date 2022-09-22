@@ -252,3 +252,45 @@ height: 80%vh;
   margin-top: 30px;
 }
 
+.slevy--styl {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-2f6b26);
+text-align: left;
+font: normal normal normal 18px/22px Museo Sans Cond;
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+}
+
+.poplatky--podcarou, .poplatky--cenik {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-a2cf44);
+text-align: left;
+font: normal normal normal 18px/22px Museo Sans Cond;
+letter-spacing: 0px;
+color: #A2CF44;
+opacity: 1;
+}
+
+.ceskaKvalita--content {
+ font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-museo-sans-cond);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal normal 22px/27px Museo Sans Cond;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+.ceskaKvalita--title
+{
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-50)/var(--unnamed-line-spacing-57) var(--unnamed-font-family-export);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-001000);
+text-align: left;
+font: normal normal normal 50px/57px Export;
+letter-spacing: 0px;
+color: #001000;
+opacity: 1;
+}

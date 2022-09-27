@@ -247,7 +247,6 @@ height: 80%vh;
 }
 
 .ceskaKvalita--content {
-  color: var(--unnamed-color-2f6b26);
   margin-bottom: 70px;
   margin-top: 30px;
 }
@@ -392,6 +391,10 @@ font-weight: bold;
 }
 
 .znacka--esv {
+  background-color: #fff;
+}
+
+.stazeni {
   background-color: #fff;
 }
 

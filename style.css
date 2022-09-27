@@ -379,3 +379,24 @@ font-weight: bold;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.znacka--eu {
+  background-color: #fff;
+}
+
+.znackaeu--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.znacka--esv {
+  background-color: #fff;
+}
+
+.button--content {
+
+  display: flex;
+  flex-direction: column
+}

@@ -425,6 +425,7 @@ br {
 
 p {
   padding: 4% 0 4% 0;
+  font-family: "museo-sans-condensed";
 }
 
 #hovermenu li a:hover {

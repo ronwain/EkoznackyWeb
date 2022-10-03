@@ -3,6 +3,16 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+p {
+  padding: 4% 0 4% 0;
+  font-family: "museo-sans-condensed";
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2F6B26;
+  opacity: 1;
+}
+
 .navbar {
   background-color: #001000;
 }
@@ -367,9 +377,6 @@ br {
   justify-content: center;
 }
 
-p {
-  line-height:1.5;
-}
 
 br {
   margin-bottom: 30px;
@@ -423,14 +430,7 @@ br {
   padding: 4% 0 4% 0;
 }
 
-p {
-  padding: 4% 0 4% 0;
-  font-family: "museo-sans-condensed";
-  text-align: left;
-  letter-spacing: 0px;
-  color: #2F6B26;
-  opacity: 1;
-}
+
 
 #hovermenu li a:hover {
   color: #fff;
@@ -458,7 +458,7 @@ p {
 
 
 .panel {
-  padding: 0 18px;
+  padding: 18px;
   display: none;
   background-color: white;
   overflow: hidden;
@@ -470,7 +470,7 @@ p {
   font-weight: 500;
   text-align: left;
   color: #2F6B26;
-  line-height: 1.8;
+  line-height: 1.3;
 }
 
 h5 {

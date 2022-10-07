@@ -11,6 +11,7 @@ p {
   letter-spacing: 0px;
   color: #2F6B26;
   opacity: 1;
+  font-size: 22px;
 }
 
 .navbar {
@@ -538,4 +539,42 @@ td, th {
 
     #cenik  { 
     padding: 0 0 3% 0;
+    }
+
+    .epd{
+    background-color: #fff
+    ;
+    }
+
+    .epd--title h1 {
+      align-content: center;
+      align-items: center;
+    }
+
+    .znackaesv--title {
+      text-align: center;
+    }
+
+    a {
+      color: #a2cf44;
+    }
+
+
+    .content--zelenezakazky {
+      background-color: #fff;
+    }
+
+    .esv--kvalita{
+      background-color: #fff;
+    }
+    /* rozesazení do ddvou sloupců*/
+    
+    .border {
+      border: 3px solid #a2cf44;
+      padding: 4px;
+    }
+
+    #sipka
+     {
+      background-image: url(img/imgColor/sipka.svg);
     }

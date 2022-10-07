@@ -223,7 +223,8 @@ height: 80%vh;
 
 .ceskaKvalita--symbol {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
+  justify-content: center;
 }
 
 .ceskaKvalita--title {
@@ -251,16 +252,7 @@ height: 80%vh;
   margin-top: 30px;
 }
 
-.slevy--styl {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 18px/22px var(--unnamed-font-family-museo-sans-cond);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-2f6b26);
-text-align: left;
-font: normal normal normal 18px/22px Museo Sans Cond;
-letter-spacing: 0px;
-color: #2F6B26;
-opacity: 1;
-}
+
 
 .poplatky--podcarou, .poplatky--cenik {
 letter-spacing: var(--unnamed-character-spacing-0);
@@ -272,14 +264,7 @@ color: #A2CF44;
 opacity: 1;
 }
 
-.ceskaKvalita--content {
- font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-museo-sans-cond);
-letter-spacing: var(--unnamed-character-spacing-0);
-text-align: left;
-font: normal normal normal 22px/27px Museo Sans Cond;
-letter-spacing: 0px;
-opacity: 1;
-}
+
 
 .ceskaKvalita--title
 {
@@ -292,16 +277,7 @@ letter-spacing: 0px;
 color: #001000;
 opacity: 1;
 }
-.content--predstavuje {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-27) var(--unnamed-font-family-museo-sans-cond);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-2f6b26);
-text-align: left;
-font: normal normal normal 22px/27px Museo Sans Cond;
-letter-spacing: 0px;
-color: #2F6B26;
-opacity: 1;
-}
+
 
 /* komponenta vyrobek*/
 .vyrobek--komponenta {
@@ -402,4 +378,345 @@ font-weight: bold;
 
   display: flex;
   flex-direction: column
+}
+
+.principy-content {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  }
+
+.principy-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.principy-ikona {
+  width: 184px;
+  height: 184px;
+  aspect-ratio: 1/1;
+
+}
+
+.principy-grafika {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.principy-text {
+  font-family: "museo-sans-condensed";
+  letter-spacing: 0px;
+  color: #2F6B26;
+  opacity: 1;
+  font-size: 24px;
+  padding: 16px ;
+  text-align: center;
+  align-self: center;
+  max-width: 100%;
+  flex-basis: auto;
+}
+
+#sipka {
+  width: 120px;
+  height: 120px;
+}
+
+.zarovnani {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.infografika {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.infografika--img {
+  width: 400px;
+  height: 240px;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 240px;
+  animation: obrazky;
+  animation-iteration-count: infinite;
+  animation-duration: 12s;
+}
+
+
+@keyframes obrazky {
+  
+  0% {
+    background-image: url(img/animace/vyrobky.png);
+    width: 400px;
+    height: 240px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 240px;
+  }
+
+  
+  20% {
+    background-image: url(
+      img/animace/uivatel.png);
+      width: 400px;
+      height: 240px;
+      align-self: center;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 400px 240px;
+  }
+  40% {
+    background-image: url(img/animace/uivatel.png);
+    width: 400px;
+    height: 240px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 240px;
+  }
+
+  60% {
+    background-image: url(img/animace/vyrobky.png);
+    width: 400px;
+    height: 240px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 240px;
+  }
+
+  80% {
+    background-image: url(img/animace/vyrobky.png);
+    width: 400px;
+    height: 240px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 240px;
+  }
+
+  100% {
+    background-image: url(img/animace/vyrobky.png);
+    width: 400px;
+    height: 240px;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 240px;
+  }
+}
+
+.infografika-animace {
+  display:flex;
+  flex-direction: row;
+}
+
+.infografika--number::before {
+
+width: 240px;
+height: 240px;
+animation: cisla;
+font-family: "museo-sans-condensed";
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+font-size: 88px;
+animation-iteration-count: infinite;
+animation-duration: 12s;
+
+
+}
+
+.infografika--popis::before
+{
+
+animation: pismenka;
+font-family: "museo-sans-condensed";
+letter-spacing: 0px;
+color: #2F6B26;
+opacity: 1;
+font-size: 32px;
+content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
+animation-iteration-count: infinite;
+  animation-duration: 12s;
+
+}
+
+
+
+@keyframes pismenka {
+  
+  0% {
+    content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
+  }
+
+  20% {
+    content: "certifikovaných produktů a služeb";
+}
+
+40% {
+  content: "certifikovaných produktů a služeb";
+}
+
+
+  60% {
+      content: "certifikovatelných kategorií";
+  }
+
+  80% {
+    content: "certifikovatelných kategorií";
+}
+
+
+100% {
+  content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
+}
+
+}
+
+@keyframes cisla {
+  
+  0% {
+    content: "88";
+  }
+
+  20% {
+    content: "88";
+}
+
+40% {
+  content: "20";
+}
+
+
+  60% {
+      content: "20";
+  }
+
+  80% {
+    content: "36";
+}
+
+
+100% {
+  content: "36";
+}
+
+}
+
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq {
+  background-color: #fff;
+  border: 3px solid #a2cf44;
+ 
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  border:3px solid #a2cf44;
+ 
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color:#A2CF44;
+  ;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #2F6B26;
+  ;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-chevron-up {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-chevron-up {
+  color: rgb(8, 8, 8);
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #fff;
+  
+}
+
+#faq--borders {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

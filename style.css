@@ -445,172 +445,28 @@ font-weight: bold;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400px 240px;
-  animation: obrazky;
-  animation-iteration-count: infinite;
-  animation-duration: 12s;
+  background-image: url("img/animace/uivatel.png");
 }
 
-
-@keyframes obrazky {
-  
-  0% {
-    background-image: url(img/animace/vyrobky.png);
-    width: 400px;
-    height: 240px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px 240px;
-  }
-
-  
-  20% {
-    background-image: url(
-      img/animace/uivatel.png);
-      width: 400px;
-      height: 240px;
-      align-self: center;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 400px 240px;
-  }
-  40% {
-    background-image: url(img/animace/uivatel.png);
-    width: 400px;
-    height: 240px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px 240px;
-  }
-
-  60% {
-    background-image: url(img/animace/vyrobky.png);
-    width: 400px;
-    height: 240px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px 240px;
-  }
-
-  80% {
-    background-image: url(img/animace/vyrobky.png);
-    width: 400px;
-    height: 240px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px 240px;
-  }
-
-  100% {
-    background-image: url(img/animace/vyrobky.png);
-    width: 400px;
-    height: 240px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px 240px;
-  }
-}
 
 .infografika-animace {
   display:flex;
   flex-direction: row;
 }
 
-.infografika--number::before {
-
-width: 240px;
-height: 240px;
-animation: cisla;
-font-family: "museo-sans-condensed";
-letter-spacing: 0px;
-color: #2F6B26;
-opacity: 1;
-font-size: 88px;
-animation-iteration-count: infinite;
-animation-duration: 12s;
-
+.infografika--text {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  justify-content: flex-end;
 
 }
 
-.infografika--popis::before
-{
-
-animation: pismenka;
-font-family: "museo-sans-condensed";
-letter-spacing: 0px;
-color: #2F6B26;
-opacity: 1;
-font-size: 32px;
-content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
-animation-iteration-count: infinite;
-  animation-duration: 12s;
-
-}
-
-
-
-@keyframes pismenka {
+.infografika--cislo {
+  text-align: left;
+  color: #2F6B26;
+  font-size: 48px;
   
-  0% {
-    content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
-  }
-
-  20% {
-    content: "certifikovaných produktů a služeb";
-}
-
-40% {
-  content: "certifikovaných produktů a služeb";
-}
-
-
-  60% {
-      content: "certifikovatelných kategorií";
-  }
-
-  80% {
-    content: "certifikovatelných kategorií";
-}
-
-
-100% {
-  content: "držitelů EKOZNAČKY EU/EŠS/EŠV z řad výrobců a poskytovatelů služeb";
-}
-
-}
-
-@keyframes cisla {
-  
-  0% {
-    content: "88";
-  }
-
-  20% {
-    content: "88";
-}
-
-40% {
-  content: "20";
-}
-
-
-  60% {
-      content: "20";
-  }
-
-  80% {
-    content: "36";
-}
-
-
-100% {
-  content: "36";
-}
-
 }
 
 
@@ -719,4 +575,14 @@ animation-iteration-count: infinite;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.esveu {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.esveu--content {
+  margin: 2%;
 }

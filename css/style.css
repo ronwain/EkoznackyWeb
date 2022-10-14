@@ -317,7 +317,6 @@ br {
   font-family: Export;
   font-size: 50px;
   font-weight: 400;
-  text-align: left;
   margin-top: 4%;
 }
 
@@ -356,7 +355,7 @@ br {
   text-align: center;
 
 }
-
+/*
 #listek {
   display: flex;
   flex-direction: column;
@@ -364,7 +363,7 @@ br {
   align-items: center;
   max-width: 300px;
 }
-
+*/
 .content--sekce .content--esv {
   letter-spacing: 2px;
   display: flex;
@@ -513,6 +512,8 @@ td, th {
       font-weight: 400;
       font-family: Export;
       text-align: center;
+      margin: 4%;
+      font-size: 50px;
     
     }
 

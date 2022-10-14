@@ -223,8 +223,8 @@ height: 80%vh;
 
 .ceskaKvalita--symbol {
   display: flex;
-  flex-direction:row;
-  justify-content: center;
+  flex-direction:column;
+  align-items: center;
 }
 
 .ceskaKvalita--title {
@@ -248,8 +248,9 @@ height: 80%vh;
 }
 
 .ceskaKvalita--content {
-  margin-bottom: 70px;
-  margin-top: 30px;
+ display: flex;
+ align-items: center;
+ padding: 2%;
 }
 
 
@@ -360,10 +361,7 @@ font-weight: bold;
 }
 
 .znackaeu--content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
 }
 
 .znacka--esv {
@@ -409,7 +407,22 @@ font-weight: bold;
 .principy-text {
   font-family: "museo-sans-condensed";
   letter-spacing: 0px;
-  color: #2F6B26;
+  color: var(--unnamed-color-a2cf44);
+  opacity: 1;
+  font-size: 24px;
+  padding: 16px ;
+  text-align: center;
+  align-self: center;
+  max-width: 100%;
+  flex-basis: auto;
+
+}
+
+.odkazy-text {
+
+  font-family: Export;
+  letter-spacing: 0px;
+  color: var(--unnamed-color-a2cf44);
   opacity: 1;
   font-size: 24px;
   padding: 16px ;
@@ -614,7 +627,50 @@ font-weight: bold;
     font-weight: bold;
 }
 
+#border-box {
+border: 3px solid #A2CF44;
+margin: 4%;
+padding: 4%;
+}
+
+#listek {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 4%;
+}
+
+#zakazky-prinos {
+  background-color:#345c2e;
+  text-align: center;
+ 
+}
+
+.coto--title  {
+display: flex;
+flex-direction: column;
+align-content: center;
+}
+
+#zakazky-prinos h2 {
+  color: #A2CF44;
+  text-align: center;
+}
+#zakazky-prinos ul li {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; 
+}
+
+#zakazky-prinos ul li p {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
 
 
+}
 
+#zakazky-prinos .principy-img {
+  filter: invert(100%);
+}
 

@@ -512,6 +512,7 @@ td, th {
       color: #070707;
       font-weight: 400;
       font-family: Export;
+      text-align: center;
     
     }
 
@@ -559,4 +560,22 @@ td, th {
     #sipka
      {
       background-image: url(img/imgColor/sipka.svg);
+    }
+
+   .zelenezakazky--coto p {
+     padding: 1%;
+     font-weight: 600;
+
+    }
+
+    .content--zelenezakazky {
+      width: 100vw;
+    }
+
+    a {
+      font-family: Export;
+    }
+
+    .principy-text a {
+      font-family: Export;
     }

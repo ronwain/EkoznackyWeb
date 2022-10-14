@@ -1,7 +1,7 @@
 
 :root {
 /*colors*/
-  --unnamed-color-2f6b26: #2F6B26;
+  --unnamed-color-2f6b26: #345c2e;
   --unnamed-color-001000: #001000;
   --unnamed-color-a2cf44: #A2CF44;
   /* Font/text values */
@@ -586,3 +586,35 @@ font-weight: bold;
 .esveu--content {
   margin: 2%;
 }
+
+.certifikace {
+  background-color: #fff;
+}
+
+.zakazky--btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.vyrobek--form p{
+  text-align: right;
+}
+
+.vyrobek--import p{
+  text-align: left;
+}
+
+.vyrobek--popis h4 {
+  font-family: "museo-sans-condensed";
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2F6B26;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+

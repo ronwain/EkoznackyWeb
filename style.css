@@ -407,7 +407,7 @@ font-weight: bold;
 .principy-text {
   font-family: "museo-sans-condensed";
   letter-spacing: 0px;
-  color: var(--unnamed-color-a2cf44);
+  color:#2F6B26;
   opacity: 1;
   font-size: 24px;
   padding: 16px ;
@@ -415,7 +415,7 @@ font-weight: bold;
   align-self: center;
   max-width: 100%;
   flex-basis: auto;
-
+  font-weight: 500;
 }
 
 .odkazy-text {
@@ -674,3 +674,28 @@ align-content: center;
   filter: invert(100%);
 }
 
+.znaceni--grafika {
+display: flex;
+flex-direction: row;
+}
+
+.znaceni-text {
+  font-family: "museo-sans-condensed";
+  letter-spacing: 0px;
+  color: #2F6B26;
+  opacity: 1;
+  font-size: 24px;
+  padding: 16px;
+  max-width: 100%;
+  flex-basis: auto;
+  font-weight: 600;
+  text-align: left;
+  align-self: center;
+}
+
+.znaceni-link p{
+  
+  font-size: 26px;
+  text-align: center;
+
+}

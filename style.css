@@ -705,3 +705,30 @@ flex-direction: row;
   background-color:#2F6B26;
 }
 
+.vyhody-zakznici {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.border-box {
+  border: 3px solid #A2CF44;
+  margin: 4%;
+  padding: 4%;
+  
+}
+
+.certifikace  p {
+padding: 1%;
+}
+
+.faq-text  li {
+ 
+  font-family: "museo-sans-condensed";
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2F6B26;
+  opacity: 1;
+  font-size: 22px;
+}

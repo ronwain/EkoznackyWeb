@@ -139,7 +139,8 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: var(--unnamed-color-a2cf44)
+  color: var(--unnamed-color-a2cf44);
+  font-family: "museo-sans-condensed";
 }
 
 footer p {
@@ -693,9 +694,14 @@ flex-direction: row;
   align-self: center;
 }
 
-.znaceni-link p{
-  
-  font-size: 26px;
-  text-align: center;
+.znaceni-link {
+  background-color: #345c2e;
+  align-self: center;
+ 
 
 }
+
+#pozadi {
+  background-color:#2F6B26;
+}
+

@@ -42,3 +42,46 @@ $(document).ready(function(){
   centerMode: true,
   });
 });
+
+
+
+window.onload = function (e) {
+
+
+  var a1 = document.getElementById("a1");
+  var a2 = document.getElementById("a2");
+  var a3 = document.getElementById("a3");
+
+
+
+
+  function animate() {
+
+
+      setTimeout(function () {
+          a2.addClass("active");
+      }, 3400);
+
+      setTimeout(function () {
+  a3.addClass("active");
+      }, 6800);		
+
+      
+      setTimeout(function () {
+          a2.removeClass("active");
+          a3.removeClass("active");
+      }, 10200);     
+      
+
+      setTimeout(function () {
+          animate();
+      }, 10200);			
+
+
+  }
+
+  animate();
+
+
+
+};
